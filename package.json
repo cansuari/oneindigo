@@ -2,7 +2,7 @@
   "name": "one-indigo-nuxt-app",
   "description": "This is a nuxt.js, vue.js and tailwindcss one page progressive web application.",
   "version": "1.0.0",
-  "licence": "1.0.0",
+  "licence": "MIT",
   "private": true,
   "author": {
     "name": "Cansu Arı",
