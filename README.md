@@ -2,7 +2,7 @@
 # oneindigo
 ## Setup
 
-Install Node.js 18.16.0 version.
+Install Node.js 18.16.1 version.
 Make sure to install the dependencies:
 
 ```bash
