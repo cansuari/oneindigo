@@ -1,0 +1,258 @@
+{
+  "hero": {
+    "pin": "Easy to use",
+    "title": "<mark>Manage your accounts</mark> from a single panel anywhere.",
+    "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.    ",
+    "buttons": [
+      {
+        "external": false,
+        "label": "Downloads",
+        "url": "#download",
+        "color": "indigo-600",
+        "textColor": "white",
+        "outline": false,
+        "rounded": true,
+        "size": "md",
+        "icon": null,
+        "iconPosition": null,
+        "iconName": null,
+        "iconSize": null,
+        "id": null,
+        "name": null
+      }
+    ],
+    "links": [
+      {
+        "external": false,
+        "label": "How it works?",
+        "url": "#overview",
+        "color": "indigo-900",
+        "icon": true,
+        "iconPosition": "right",
+        "iconName": "mdi:arrow-right-thin",
+        "iconSize": "20",
+        "id": null,
+        "name": null
+      }
+    ],
+    "image": {
+      "url": "images/promo.jpg",
+      "alt": "hero image"
+    },
+    "sectionEnabled": true,
+    "imageEnabled": true
+  },
+  "logos": {
+    "pin": null,
+    "title": "Partners",
+    "description": "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.",
+    "sectionEnabled": true,
+    "images": [
+      {
+        "alt": "Transistor",
+        "url": "https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
+      },
+      {
+        "alt": "Reform",
+        "url": "https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
+      },
+      {
+        "alt": "Tuple",
+        "url": "https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
+      },
+      {
+        "alt": "SavvyCal",
+        "url": "https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
+      },
+      {
+        "alt": "Statamic",
+        "url": "https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
+      }
+    ]
+  },
+  "overview": {
+    "pin": "Overview",
+    "title": "<mark>High-level</mark> Security",
+    "description": "Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.",
+    "content": "<p>Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor praesent donec est. Odio penatibus risus viverra tellus varius sit neque erat velit. Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae sed turpis id.</p> <ul role='list' class='mt-8 space-y-8 text-gray-600'> <li class='flex gap-x-3'> <span><strong class='font-bold text-indigo-500'>Blockchain.</strong> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.</span> </li> <li class='flex gap-x-3'> <span><strong class='font-bold text-indigo-500'>Fast.</strong> Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</span> </li> <li class='flex gap-x-3'> <span><strong class='font-bold text-indigo-500'>Easy.</strong> Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.</span> </li> </ul> <p class='mt-8'>Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis odio id et. Id blandit molestie auctor fermentum dignissim. Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate et ultrices hac adipiscing egestas. Iaculis convallis ac tempor et ut. Ac lorem vel integer orci.</p> <h2 class='mt-16 text-2xl font-bold tracking-tight text-gray-900'>International Security System.</h2> <p class='mt-6'>Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod vitae interdum mauris enim, consequat vulputate nibh. Maecenas pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis ipsum eu a sed convallis diam.</p>",
+    "sectionEnabled": true,
+    "image": {
+      "url": "images/security.jpg",
+      "alt": "overview image"
+    }
+  },
+  "features": {
+    "pin": "Easy connection",
+    "title": "<mark>One-click</mark> Connection",
+    "description": "Faucibus commodo massa rhoncus, volutpat.",
+    "sectionEnabled": true,
+    "content": [
+      {
+        "name": "Download the app.",
+        "description": "Morbi viverra dui mi arcu sed. Tellus semper adipiscing suspendisse semper morbi. Odio urna massa nunc massa.",
+        "icon": "mdi-light:download"
+      },
+      {
+        "name": "Register with your id.",
+        "description": "Sit quis amet rutrum tellus ullamcorper ultricies libero dolor eget. Sem sodales gravida quam turpis enim lacus amet.",
+        "icon": "dashicons:id"
+      },
+      {
+        "name": "That's it!",
+        "description": "Quisque est vel vulputate cursus. Risus proin diam nunc commodo. Lobortis auctor congue commodo diam neque.",
+        "icon": "dashicons:smiley"
+      }
+    ]
+  },
+  "callToAction": {
+    "pin": "Download Now",
+    "title": "Boost your productivity.\nStart using our app today.",
+    "description": "Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla.",
+    "sectionEnabled": true,
+    "buttons": [
+      {
+        "external": true,
+        "label": "Google Play",
+        "url": "#",
+        "color": "white",
+        "textColor": "white",
+        "outline": true,
+        "rounded": true,
+        "size": "md",
+        "icon": true,
+        "iconPosition": "left",
+        "iconName": "mdi:google-play",
+        "iconSize": "24",
+        "id": null,
+        "name": null
+      },
+      {
+        "external": true,
+        "label": "App Sotre",
+        "url": "#",
+        "color": "white",
+        "textColor": "white",
+        "outline": true,
+        "rounded": true,
+        "size": "md",
+        "icon": true,
+        "iconPosition": "left",
+        "iconName": "mdi:apple",
+        "iconSize": "24",
+        "id": null,
+        "name": null
+      }
+    ],
+    "image": {
+      "url": "images/cta.jpg",
+      "alt": "App screenshot"
+    }
+  },
+  "pricing": {
+    "pin": "Pay once, own it forever",
+    "title": "<mark>Lifetime</mark> membership",
+    "description": "Distinctio et nulla eum soluta et neque labore quibusdam. Saepe et quasi iusto modi velit ut non voluptas in. Explicabo id ut laborum.    ",
+    "sectionEnabled": true,
+    "items": [
+      {
+        "name": "Basic",
+        "description": "Invoices and receipts available for easy company reimbursement",
+        "price": "$199",
+        "url": "#",
+        "mostPopular": false,
+        "features": [
+          {
+            "label": "Limited for 5 accounts"
+          },
+          {
+            "label": "All account activity"
+          },
+          {
+            "label": "Transfer between accounts"
+          }
+        ]
+      },
+      {
+        "name": "Advanced",
+        "description": "Invoices and receipts available for easy company reimbursement",
+        "price": "$499",
+        "url": "#",
+        "mostPopular": true,
+        "features": [
+          {
+            "label": "Unlimited accounts"
+          },
+          {
+            "label": "Transfer between accounts"
+          },
+          {
+            "label": "All account activity"
+          },
+          {
+            "label": "invoices and receipts"
+          },
+          {
+            "label": "Exchange rates"
+          },
+          {
+            "label": "Crypto transactions"
+          }
+        ]
+      }
+    ]
+  },
+  "testimonialSingle": {
+    "sectionEnabled": true,
+    "blockquote": "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo expedita voluptas culpa sapiente alias molestiae. Numquam corrupti in laborum sed rerum et corporis.”",
+    "personName": "Judith Black",
+    "persontitle": "CEO of Workcation",
+    "image": {
+      "url": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      "alt": "Testimonial Person Avatar"
+    },
+    "logo": {
+      "url": "https://tailwindui.com/img/logos/workcation-logo-indigo-600.svg",
+      "alt": "Testimonial Person Avatar"
+    }
+  },
+  "newsletter": {
+    "sectionEnabled": true,
+    "title": "Subscribe to our newsletter.",
+    "description": "We care about your data.",
+    "items": [
+      {
+        "icon": "material-symbols:calendar-month-outline-rounded",
+        "title": "Weekly articles",
+        "description": "Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet."
+      },
+      {
+        "icon": "material-symbols:back-hand-outline-sharp",
+        "title": "No spam",
+        "description": "Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim."
+      }
+    ]
+  },
+  "faqs": {
+    "sectionEnabled": true,
+    "title": "Frequently Asked Questions",
+    "description": null,
+    "items": [
+      {
+        "title": "Non laboris consequat cupidatat?",
+        "description": "Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet."
+      },
+      {
+        "title": "Officia excepteur ullamco ut sint?",
+        "description": "Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim."
+      },
+      {
+        "title": "Non laboris consequat cupidatat?",
+        "description": "Non laboris consequat cupidatat laborum magna. Eiusmod non irure cupidatat duis commodo amet."
+      },
+      {
+        "title": "Officia excepteur ullamco ut sint?",
+        "description": "Officia excepteur ullamco ut sint duis proident non adipisicing. Voluptate incididunt anim."
+      }
+    ]
+  }
+}

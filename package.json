@@ -1,0 +1,50 @@
+{
+  "name": "one-indigo-nuxt-app",
+  "description": "This is a nuxt.js, vue.js and tailwindcss one page progressive web application.",
+  "version": "1.0.0",
+  "licence": "1.0.0",
+  "private": true,
+  "author": {
+    "name": "Cansu Arı",
+    "email": "merhabacansuari@gmail.com",
+    "url": "https://themeforest.net/user/letorconst"
+  },
+  "contributors": [
+    {
+      "name": "Cansu Arı",
+      "email": "merhabacansuari@gmail.com"
+    }
+  ],
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/google-fonts": "^3.0.1",
+    "@nuxtjs/tailwindcss": "^6.7.0",
+    "@types/markdown-it": "^12.2.3",
+    "@types/node": "^18",
+    "@vite-pwa/nuxt": "^0.1.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.5.1",
+    "nuxt-icon": "^0.4.1",
+    "postcss": "^8.4.24",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^4.3.9"
+  },
+  "engines": {
+    "node": "18.16.1"
+  },
+  "dependencies": {
+    "@headlessui/vue": "^1.7.14",
+    "@nuxtjs/composition-api": "^0.33.1",
+    "sass": "^1.63.6",
+    "vue-markdown-render": "^2.0.1"
+  }
+}

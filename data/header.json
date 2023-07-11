@@ -1,0 +1,20 @@
+{
+  "logo": null,
+  "title": "OneIndigo",
+  "cta": {
+    "external": true,
+    "label": "See other solutions",
+    "url": "https://themeforest.net/user/letorconst",
+    "color": "indigo-600",
+    "textColor": "white",
+    "outline": true,
+    "rounded": true,
+    "size": "sm",
+    "icon": true,
+    "iconPosition": "right",
+    "iconName": "ph:arrow-up-right-thin",
+    "iconSize": "20",
+    "id": null,
+    "name": null
+  }
+}

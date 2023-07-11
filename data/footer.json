@@ -1,0 +1,26 @@
+{
+  "logo": null,
+  "title": "OneIndigo",
+  "copyright": "Copyright © 2023 <a href='https://themeforest.net/user/letorconst' class='font-bold text-indigo-300'>letorconst</a>.",
+  "email": "support@letorconst.com.tr",
+  "socialAccounts": [
+    {
+      "label": "Twitter",
+      "name": "Twitter",
+      "icon": "twitter",
+      "url": "#"
+    },
+    {
+      "label": "Instagram",
+      "name": "Instagram",
+      "icon": "instagram",
+      "url": "#"
+    },
+    {
+      "label": "Youtube",
+      "name": "Youtube",
+      "icon": "youtube",
+      "url": "#"
+    }
+  ]
+}
