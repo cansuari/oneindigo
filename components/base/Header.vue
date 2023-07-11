@@ -12,7 +12,7 @@
       aria-label="Global"
     >
       <div class="flex lg:flex-1">
-        <a :href="BASE_URL" class="-m-1.5 p-1.5">
+        <a href="/" class="-m-1.5 p-1.5">
           <img
             v-if="header && header.logo"
             class="h-8 w-auto"
@@ -45,7 +45,7 @@
         <a
           v-for="(item, index) in navigation"
           :key="index"
-          :href="BASE_URL + item.url"
+          :href="item.url"
           class="py-4 mr-2 hover:text-indigo-600 transition-all duration-200 snap-center"
           :class="{
             'hash-navigation-active':
@@ -86,7 +86,7 @@
         class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
       >
         <div class="flex items-center justify-between">
-          <a :href="BASE_URL">
+          <a href="/">
             <img
               v-if="header && header.logo"
               class="h-8 w-auto"
@@ -115,7 +115,7 @@
             <a
               v-for="item in navigation"
               :key="item.label"
-              :href="BASE_URL + item.url"
+              :href="item.url"
               class="block py-4 mr-5 hover:text-indigo-600 transition-all duration-200 snap-center"
               :class="{
                 'hash-navigation-active':
@@ -162,7 +162,6 @@ const props = defineProps({
 const mobileMenuOpen = ref(false);
 const isHeaderSticky = ref(false);
 const clickTriggered = ref(false);
-const BASE_URL = "http://letorconst.com.tr/themeforest.templates/oneindigo/";
 
 onMounted(() => {
   window.addEventListener("scroll", handleScroll);

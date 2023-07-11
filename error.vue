@@ -18,7 +18,7 @@
       </h1>
       <div class="mt-20 flex items-center justify-center gap-x-6">
         <a
-          :href="BASE_URL"
+          href="/"
           class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >Go back home</a
         >
@@ -31,5 +31,4 @@
 defineProps({
   error: Object,
 });
-const BASE_URL = "http://letorconst.com.tr/themeforest.templates/oneindigo/";
 </script>

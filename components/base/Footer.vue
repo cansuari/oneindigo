@@ -4,7 +4,7 @@
       <div class="py-16 mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <a
           class="flex title-font text-center font-medium items-center text-white mb-4 md:mb-0"
-          :href="BASE_URL"
+          href="/"
         >
           <img v-if="footer.logo" :src="footer.logo" />
           <span v-if="footer.title" class="block w-full ml-3 text-xl font-bold">
@@ -20,7 +20,7 @@
             <a
               v-for="nav in navigation"
               class="block text-center md:inline-block py-3 px-2 md:py-1 text-sm text-indigo-300 hover:text-indigo-100"
-              :href="BASE_URL + nav.url"
+              :href="nav.url"
             >
               {{ nav.label }}
             </a>
@@ -67,7 +67,4 @@ const props = defineProps({
   footer: { type: Object },
   navigation: { type: Array },
 });
-
-const BASE_URL =
-  "http://letorconst.com.tr/themeforest.templates/oneindigo/";
 </script>
