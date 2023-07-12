@@ -26,7 +26,7 @@
             />
             <button
               type="submit"
-              class="flex-none rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+              class="flex-none rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
             >
               Subscribe
             </button>
@@ -47,7 +47,7 @@
             <div class="mt-4 font-semibold text-white">
               {{ item.title }}
             </div>
-            <div class="mt-2 leading-7 text-gray-400">
+            <div class="mt-2 leading-7 text-gray-200">
               {{ item.description }}
             </div>
           </div>

@@ -39,7 +39,7 @@
         <figcaption class="mt-10">
           <img
             class="mx-auto h-10 w-10 rounded-full"
-            src="/images/testimonials-1.jpg"
+            src="/images/testimonials-1.webp"
             alt="Testimonial"
           />
           <div
@@ -55,7 +55,7 @@
             >
               <circle cx="1" cy="1" r="1" />
             </svg>
-            <div class="text-gray-600">CEO of Workcation</div>
+            <div class="text-gray-800">CEO of Workcation</div>
           </div>
         </figcaption>
       </figure>

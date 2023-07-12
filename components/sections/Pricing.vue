@@ -7,7 +7,7 @@
         <div class="mx-auto max-w-2xl">
           <p
             v-if="pin"
-            class="text-base text-center font-semibold leading-7 text-indigo-600 mb-3"
+            class="text-base text-center font-semibold leading-7 text-indigo-200 mb-3"
           >
             {{ pin }}
           </p>
@@ -69,12 +69,12 @@
                       >/life-time</span
                     >
                   </div>
-                  <p class="mt-6 text-lg leading-7 text-gray-600">
+                  <p class="mt-6 text-lg leading-7 text-gray-800">
                     {{ item.description }}
                   </p>
                   <ul
                     role="list"
-                    class="mt-10 space-y-4 text-sm leading-6 text-gray-600"
+                    class="mt-10 space-y-4 text-sm leading-6 text-gray-800"
                   >
                     <li
                       v-for="feature in item.features"

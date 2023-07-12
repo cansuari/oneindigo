@@ -28,7 +28,7 @@
         >
           <p
             v-if="pin"
-            class="text-base text-center lg:text-left font-semibold leading-7 text-indigo-500 mb-3"
+            class="text-base text-center lg:text-left font-semibold leading-7 text-indigo-200 mb-3"
           >
             {{ pin }}
           </p>

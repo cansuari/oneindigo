@@ -19,6 +19,8 @@ export default defineNuxtConfig({
     manifest: {
       name: "Oneindigo One Page Nuxt.js Template",
       short_name: "Oneindigo",
+      description:
+        "The Oneindigo is a Nuxt.js 3 and Vue.js 3 based Progressive Web Application with Tailwindcss Framework.",
       theme_color: "#4f46e5",
       icons: [
         {

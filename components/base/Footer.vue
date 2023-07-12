@@ -19,7 +19,7 @@
           <div class="-my-1 md:flex justify-center md:gap-x-6">
             <a
               v-for="nav in navigation"
-              class="block text-center md:inline-block py-3 px-2 md:py-1 text-sm text-indigo-300 hover:text-indigo-100"
+              class="block text-center md:inline-block py-3 px-2 md:py-1 text-sm text-indigo-100 hover:text-indigo-300"
               :href="nav.url"
             >
               {{ nav.label }}
@@ -39,7 +39,7 @@
             <Icon
               :name="`mdi:${account.icon}`"
               size="40"
-              class="text-indigo-400 hover:text-indigo-300"
+              class="text-indigo-100 hover:text-indigo-300"
             />
           </a>
         </div>
@@ -51,15 +51,15 @@
       >
         <a
           :href="'mailto:' + footer.email"
-          class="block w-full lg:w-auto text-indigo-500 hover:text-indigo-400 text-sm leading-7 text-center"
+          class="block w-full lg:w-auto text-indigo-200 hover:text-indigo-400 text-sm leading-7 text-center"
           >Contact us
           <Icon
             name="ph:arrow-up-right-thin"
-            class="text-indigo-500"
+            class="text-indigo-200"
             size="20"
           />
         </a>
-        <p class="mt-6 text-sm text-indigo-500 sm:mt-0">
+        <p class="mt-6 text-sm text-indigo-200 sm:mt-0">
           <span v-html="footer.copyright"></span>
         </p>
       </div>

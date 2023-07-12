@@ -69,7 +69,7 @@
             <div class="text-base font-semibold leading-7 text-gray-900">
               {{ feature.name }}
             </div>
-            <div class="mt-2 text-base leading-7 text-gray-600">
+            <div class="mt-2 text-base leading-7 text-gray-800">
               {{ feature.description }}
             </div>
           </div>

@@ -3,6 +3,7 @@
     <button
       class="bg-gray-900 hover:bg-indigo-800 transition-all rounded-full p-4"
       @click="scrollToTop"
+      aria-label="Back to Top"
     >
       <Icon name="ic:baseline-arrow-upward" size="24" color="white" />
     </button>

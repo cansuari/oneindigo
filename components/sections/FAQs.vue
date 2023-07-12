@@ -35,7 +35,7 @@
               </DisclosureButton>
             </dt>
             <DisclosurePanel as="dd" class="mt-2 pr-12">
-              <p class="text-base leading-7 text-gray-600">
+              <p class="text-base leading-7 text-gray-800">
                 {{ item.description }}
               </p>
             </DisclosurePanel>
