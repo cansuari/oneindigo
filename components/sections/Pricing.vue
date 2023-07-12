@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white pt-24 sm:pt-32">
+  <div class="bg-white my-24 md:my-36 pb-24 lg:pb-0">
     <div class="mx-auto isolate overflow-hidden bg-gray-900">
       <div
         class="mx-auto max-w-7xl px-6 pb-96 pt-24 text-center sm:pt-32 lg:px-8"
@@ -39,7 +39,7 @@
           </svg>
         </div>
       </div>
-      <div v-if="items?.length > 0" class="flow-root bg-white pb-26 sm:pb-24">
+      <div v-if="items?.length > 0" class="flow-root bg-white py-14">
         <div class="-mt-80">
           <div class="mx-auto max-w-7xl px-6 lg:px-8">
             <div

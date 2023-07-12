@@ -1,7 +1,7 @@
 <template>
   <div class="bg-white">
     <div
-      class="relative isolate px-6 pt-14 lg:px-8 pb-24 lg:pb-0 mx-auto max-w-7xl"
+      class="relative isolate px-6 py-14 lg:px-8 mx-auto max-w-7xl"
     >
       <div
         class="mx-auto grid grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:items-start lg:gap-y-10"
@@ -35,7 +35,7 @@
             "
           />
         </div>
-        <div class="mx-auto max-w-2xl py-10 lg:pt-16 pb-52 self-center">
+        <div class="mx-auto max-w-2xl py-10 lg:py-16 self-center">
           <div class="text-center" :class="{ 'lg:text-left': imageEnabled }">
             <p
               v-if="pin"
@@ -97,7 +97,7 @@
         </div>
         <div
           v-if="image && imageEnabled"
-          class="mx-auto max-w-3xl pb-10 lg:pt-16 lg:pb-52 self-center"
+          class="mx-auto max-w-3xl py-10 lg:py-16 self-center"
         >
           <figure class="max-w-2xl relative">
             <img

@@ -1,6 +1,6 @@
 <template>
   <div class="bg-white">
-    <div class="mx-auto max-w-7xl py-24 sm:px-6 sm:py-32 lg:px-8">
+    <div class="mx-auto max-w-7xl my-24 md:my-36sm:px-6 lg:px-8">
       <div
         class="relative isolate overflow-hidden bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0"
       >
@@ -69,7 +69,7 @@
         <div class="relative mt-16 h-80 lg:mt-8">
           <img
             v-if="image"
-            class="absolute left-0 top-0 w-[60rem] max-w-none rounded-md bg-white/5 ring-1 ring-indigo-900"
+            class="absolute left-0 top-0 w-[30rem] md:w-[60rem] max-w-none rounded-md bg-white/5 ring-1 ring-indigo-900"
             :src="image.url"
             :alt="image.alt"
             width="1824"

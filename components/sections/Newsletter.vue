@@ -1,6 +1,6 @@
 <template>
   <div
-    class="relative isolate overflow-hidden bg-gray-900 py-16 sm:py-24 lg:py-32"
+    class="relative isolate overflow-hidden bg-gray-900 my-24 md:my-36 py-20 md:py-36"
   >
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div
