@@ -1,6 +1,6 @@
 <template>
   <header
-    class="bg-transparent z-10 w-full transition-all"
+    class="bg-transparent z-10 w-full transition-all px-3"
     :class="[
       isHeaderSticky
         ? 'sticky top-0 bg-white shadow-md shadow-gray-100 py-3'
