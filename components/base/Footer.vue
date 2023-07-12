@@ -52,7 +52,12 @@
         <a
           :href="'mailto:' + footer.email"
           class="block w-full lg:w-auto text-indigo-500 hover:text-indigo-400 text-sm leading-7 text-center"
-          >Contact us <strong>{{ footer.email }}</strong>
+          >Contact us
+          <Icon
+            name="ph:arrow-up-right-thin"
+            class="text-indigo-500"
+            size="20"
+          />
         </a>
         <p class="mt-6 text-sm text-indigo-500 sm:mt-0">
           <span v-html="footer.copyright"></span>
