@@ -45,7 +45,7 @@
         <a
           v-for="(item, index) in navigation"
           :key="index"
-          :href="'/'+item.url"
+          :href="'/' + item.url"
           class="py-4 mr-2 hover:text-indigo-600 transition-all duration-200 snap-center"
           :class="{
             'hash-navigation-active':
@@ -115,7 +115,7 @@
             <a
               v-for="item in navigation"
               :key="item.label"
-              :href="'/'+item.url"
+              :href="'/' + item.url"
               class="block py-4 mr-5 hover:text-indigo-600 transition-all duration-200 snap-center"
               :class="{
                 'hash-navigation-active':
