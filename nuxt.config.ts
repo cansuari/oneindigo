@@ -19,7 +19,7 @@ export default defineNuxtConfig({
     manifest: {
       name: "Oneindigo One Page Nuxt.js Template",
       short_name: "Oneindigo",
-      theme_color: "#ffffff",
+      theme_color: "#4f46e5",
       icons: [
         {
           src: "pwa-192x192.png",
